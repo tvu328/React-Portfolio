@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(0, 183, 255);
+}
+
+nav .logo h1 {
+  margin: 0;
+  padding: 10px 0 0 0 ;
+}
+
+nav .nav ul {
+  display: flex;
+}
+
+nav .nav ul li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+nav .nav ul li a {
+  text-decoration: none;
+  color:  white;
+}
+
+nav .nav ul li a:hover {
+  color:rgb(226, 226, 226)
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+}
+
+header .img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;;
+  border: 1px solid rgb(0, 183, 255);
+  margin-top: 1rem;
+}
+
+.profilePic img {
+  float: left;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  border: 3px solid rgb(51, 87, 139);
+  margin-left: 10rem;
+}
+
+header span {
+  color: rgb(0, 183, 255);
+}
+
+header h1 {
+  width:300px;
+  margin-top: 85px;
+}
+
+.about h1, .skills h1, .work h1, .contact h1 {
+  color:rgb(0, 183, 255);
+}
+
+.about, .skills, .work, .contact {
+  margin: 0 5em 4em 5em;
+}
+
+.skillList {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.work main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work .card {
+  border: 1px solid black;
+  border-radius: 6px
+}
+
+.work .img {
+  background: rgb(0, 183, 255);
+  height: 150px;
+  width: 100%;
+}
+
+.work h4{
+  margin: 10px 0;
+}
+
+.work .buttons button {
+  background: rgb(0, 183, 255);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+form div {
+  margin: 10px auto 0 auto;
+}
+
+label {
+  text-align: right;
+}
+
+ form input, form textarea {
+  width: 35%;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 183, 255);
+  margin: 5px 0;
+ }
+
+ form textarea {
+  width: 35%;
+  height: 90px;
+  resize: none;
+ }
+
+footer {
+  width: 100%;
+  background-color: rgb(0, 183, 255);
+  color: white;
+  padding: 10px;
+}

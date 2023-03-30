@@ -76,7 +76,7 @@ function Contact() {
     }
 
     return (
-        <section className="contact">
+        <section id= "contact" className="contact">
             <h1>Contact</h1>
             <h2>{message}</h2>
             <form className="form" onSubmit={handleSubmit}>

@@ -9,5 +9,5 @@ Utilizing React and running npm `start`.
 ## Usage 
 ![ScreenShot](screenshot.png?raw=true "ReactHomePage")
 
-http://localhost:3000/?name=asdsadas&email=aasdsa%40gmail.com&message=asdasdasdas#resume
+Deployed site: http://localhost:3000/?name=asdsadas&email=aasdsa%40gmail.com&message=asdasdasdas#resume
 

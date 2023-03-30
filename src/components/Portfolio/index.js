@@ -32,7 +32,7 @@ function Portfolio() {
             id: 4,
             title: 'code quiz',
             image: codeQuiz,
-            website: 'https://tvu328.github.io/module-4-challenge/',
+            website: 'https://tvu328.github.io/Code-Quiz/',
             code: 'https://github.com/tvu328/Code-Quiz'
         },
         {
@@ -46,7 +46,7 @@ function Portfolio() {
             id: 6,
             title: 'professional portfolio',
             image: proPortfolio,
-            website: 'https://tvu328.github.io/challenge.two/#resume',
+            website: 'https://tvu328.github.io/Professional-Portfolio/',
             code: 'https://github.com/tvu328/Professional-Portfolio'
         }
     ]

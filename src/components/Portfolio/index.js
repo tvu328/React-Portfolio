@@ -1,6 +1,9 @@
 import weatherDashboard from '../../images/weather.png'
 import noteTaker from '../../images/note.png'
 import workSchedule from '../../images/workschedule.png'
+import codeQuiz from '../../images/codequiz.png'
+import passwordGenerator from '../../images/passwordgenerator.png'
+import proPortfolio from '../../images/professionalportfolio.png'
 import ProjectCard from '../ProjectCard/index'
 function Portfolio() {
     const myproject = [
@@ -27,18 +30,24 @@ function Portfolio() {
         },
         {
             id: 4,
-            title: 'weather dashboard',
-            image: weatherDashboard,
+            title: 'code quiz',
+            image: codeQuiz,
+            website: 'https://tvu328.github.io/module-4-challenge/',
+            code: 'https://github.com/tvu328/Code-Quiz'
         },
         {
             id: 5,
-            title: 'weather dashboard',
-            image: weatherDashboard,
+            title: 'password generator',
+            image: passwordGenerator,
+            website: 'https://tvu328.github.io/Password-Generator/',
+            code: 'https://github.com/tvu328/Password-Generator'
         },
         {
             id: 6,
-            title: 'weather dashboard',
-            image: weatherDashboard,
+            title: 'professional portfolio',
+            image: proPortfolio,
+            website: 'https://tvu328.github.io/challenge.two/#resume',
+            code: 'https://github.com/tvu328/Professional-Portfolio'
         }
     ]
     return (

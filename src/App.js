@@ -3,9 +3,9 @@ import './App.css';
 import Nav from "./components/Nav"
 import Header from "./components/Header"
 import About from "./components/About"
-import Skills from "./components/Skills"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
+import Resume from "./components/Resume"
 import Footer from "./components/Footer"
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
       <Nav />
       <Header />
       <About />
-      <Skills />
       <Portfolio />
       <Contact />
+      <Resume />
       <Footer />
     </div>
   );

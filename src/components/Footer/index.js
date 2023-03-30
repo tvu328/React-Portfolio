@@ -9,7 +9,7 @@ function Footer() {
                     <i class="fa-brands fa-linkedin my-icons"></i>
                 </a>
                 <a href="https://stackoverflow.com/users/21522713/tvu328">
-                    <i class="fa-brands fa-stack-overflow fa-2xl"></i>
+                    <i class="fa-brands fa-stack-overflow my-icons"></i>
                 </a>
             </div>
             <p>© 2023 Tyler Vu. All rights reserved.</p>

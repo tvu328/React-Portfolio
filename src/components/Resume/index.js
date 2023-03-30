@@ -1,8 +1,9 @@
-function Skills() {
+function Resume() {
     return (
-        <section className="skills" id="skills">
-            <h1>My Skills</h1>
+        <section className="resume" id="resume">
+            <h1>My Resume</h1>
             <div className="skillList">
+            <h2>Skills</h2>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
@@ -26,4 +27,4 @@ function Skills() {
     )
 }
 
-export default Skills
+export default Resume

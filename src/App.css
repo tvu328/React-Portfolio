@@ -50,10 +50,9 @@ header .img {
 }
 
 .img img {
-  width: 125%;
+  width: 130%;
   height: 100%;
-  margin-left: -30px;
-}
+} 
 
 .profilePic img {
   float: left;
@@ -73,11 +72,11 @@ header h1 {
   margin-top: 85px;
 }
 
-.about h1, .skills h1, .portfolio h1, .contact h1 {
+.about h1, .portfolio h1, .contact h1, .resume h1 {
   color:rgb(0, 183, 255);
 }
 
-.about, .skills, .portfolio, .contact {
+.about, .portfolio, .contact, .resume {
   margin: 0 5em 4em 5em;
 }
 

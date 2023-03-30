@@ -1,6 +1,8 @@
 import weatherDashboard from '../../images/weather.png'
+import noteTaker from '../../images/note.png'
+import workSchedule from '../../images/workschedule.png'
 import ProjectCard from '../ProjectCard/index'
-function Work() {
+function Portfolio() {
     const myproject = [
         {
             id: 1,
@@ -11,13 +13,17 @@ function Work() {
         },
         {
             id: 2,
-            title: 'weather dashboard',
-            image: weatherDashboard,
+            title: 'note taker',
+            image: noteTaker,
+            website: 'https://note-taker142.herokuapp.com/notes',
+            code: 'https://github.com/tvu328/Note-Taker'
         },
         {
             id: 3,
-            title: 'weather dashboard',
-            image: weatherDashboard,
+            title: 'work day scheduler',
+            image: workSchedule,
+            website: 'https://tvu328.github.io/Work-Day-Scheduler/',
+            code: 'https://github.com/tvu328/Work-Day-Scheduler'
         },
         {
             id: 4,
@@ -33,26 +39,11 @@ function Work() {
             id: 6,
             title: 'weather dashboard',
             image: weatherDashboard,
-        },
-        {
-            id: 7,
-            title: 'weather dashboard',
-            image: weatherDashboard,
-        },
-        {
-            id: 8,
-            title: 'weather dashboard',
-            image: weatherDashboard,
-        },
-        {
-            id: 9,
-            title: 'weather dashboard',
-            image: weatherDashboard,
         }
     ]
     return (
-        <section className="work" id="work">
-            <h1>My Work</h1>
+        <section className="portfolio" id="portfolio">
+            <h1>My Portfolio</h1>
             <main>
                 {
                     myproject.map(project => {
@@ -158,4 +149,4 @@ function Work() {
     )
 }
 
-export default Work
+export default Portfolio

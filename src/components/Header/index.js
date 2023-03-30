@@ -9,7 +9,7 @@ function Header() {
             </section>
 
             <section className="right">
-            <h1>Hi, I'm Tyler, a <span>Full Stack Web Developer</span>.</h1>
+            <h1>Hi, I'm Tyler, a <span>Full Stack Flex Web Developer</span>.</h1>
             </section>
         </header>
     )
